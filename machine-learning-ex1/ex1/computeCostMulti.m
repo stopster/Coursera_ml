@@ -14,7 +14,7 @@ J = 0;
 %               You should set J to the cost.
 
 dif = X*theta - y;
-J = dif'*dif*0.5*m;
+J = 0.5/m*dif'*dif;
 
 
 
